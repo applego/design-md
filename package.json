@@ -1,0 +1,33 @@
+{
+  "name": "@applego/design-md",
+  "version": "0.1.0",
+  "description": "DESIGN.md collection, CLI, font manager, and gallery. JP+EN unified.",
+  "type": "module",
+  "bin": {
+    "design-md": "./cli/bin/design-md.mjs"
+  },
+  "scripts": {
+    "build:catalog": "node scripts/build-catalog.mjs",
+    "build:fonts": "node scripts/build-fonts.mjs",
+    "sync:jp": "git subtree pull --prefix=upstream/jp https://github.com/kzhrknt/awesome-design-md-jp.git main --squash",
+    "sync:en": "git subtree pull --prefix=upstream/en https://github.com/Meliwat/awesome-design-md-pre-paywall.git main --squash",
+    "sync": "npm run sync:jp && npm run sync:en && npm run build:catalog",
+    "gallery:dev": "cd gallery && npx astro dev",
+    "gallery:build": "cd gallery && npx astro build"
+  },
+  "keywords": ["design-md", "design-system", "design-tokens", "stitch", "fonts", "japanese", "typography"],
+  "author": "applego",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applego/design-md.git"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "open": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
