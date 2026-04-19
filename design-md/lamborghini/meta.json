@@ -1,0 +1,24 @@
+{
+  "name": "lamborghini",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#ffc000",
+  "fonts": {
+    "sans": "LamboType",
+    "mono": "object-fit: cover"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

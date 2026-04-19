@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#5ac8b8",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

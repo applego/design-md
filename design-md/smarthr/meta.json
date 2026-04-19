@@ -1,0 +1,21 @@
+{
+  "name": "smarthr",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "creative"
+  ],
+  "mood": [
+    "bold",
+    "corporate"
+  ],
+  "primaryColor": "#00c4cc",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": false,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

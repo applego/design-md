@@ -1,0 +1,25 @@
+{
+  "name": "expo",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#000000",
+  "fonts": {
+    "sans": "Inter",
+    "mono": "#000000"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Geist",
+  "type": "sans-serif",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["liga", "calt", "tnum"],
+  "cdn": null,
+  "npm": "@vercel/font",
+  "usedBy": ["vercel"],
+  "pairsWith": ["Noto Sans JP", "Hiragino Sans"],
+  "notes": "Vercel's custom font. Extreme negative tracking at display sizes. Modern geometric."
+}

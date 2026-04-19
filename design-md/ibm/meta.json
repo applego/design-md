@@ -1,0 +1,26 @@
+{
+  "name": "ibm",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "bold",
+    "corporate",
+    "playful",
+    "dark"
+  ],
+  "primaryColor": "#0f62fe",
+  "fonts": {
+    "sans": "IBM Plex Sans",
+    "mono": "--cds-"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "posthog",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "saas",
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "corporate",
+    "playful",
+    "dark"
+  ],
+  "primaryColor": "#4d4f46",
+  "fonts": {
+    "sans": "IBM Plex Sans Variable",
+    "mono": "ui-monospace"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

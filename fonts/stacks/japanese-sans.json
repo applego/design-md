@@ -1,0 +1,37 @@
+[
+  {
+    "primary": "Noto Sans JP",
+    "stack": "\"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", \"Hiragino Sans\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+    "notes": "Best cross-platform. Noto covers Win/Linux, Hiragino for Mac, Yu Gothic/Meiryo fallback."
+  },
+  {
+    "primary": "Hiragino Sans",
+    "stack": "\"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", \"Yu Gothic\", \"Meiryo\", sans-serif",
+    "notes": "Mac-first. Falls back to Noto on Win/Linux."
+  },
+  {
+    "primary": "Yu Gothic",
+    "stack": "\"Yu Gothic Medium\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", \"Meiryo\", sans-serif",
+    "notes": "SmartHR approach. Needs Medium weight trick on Windows for correct rendering."
+  },
+  {
+    "primary": "Inter + Noto Sans JP",
+    "stack": "\"Inter\", \"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", sans-serif",
+    "notes": "Most common pairing for modern JP SaaS. Inter handles Latin, Noto handles CJK."
+  },
+  {
+    "primary": "Geist + Noto Sans JP",
+    "stack": "\"Geist\", \"Noto Sans JP\", \"Hiragino Sans\", \"Yu Gothic\", sans-serif",
+    "notes": "Modern Vercel-style. Geist for Latin, Noto for CJK."
+  },
+  {
+    "primary": "SF Pro + Hiragino Sans",
+    "stack": "\"SF Pro JP\", \"SF Pro Display\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", \"Helvetica Neue\", sans-serif",
+    "notes": "Apple Japan approach. SF Pro JP includes JP glyphs. Mac-only primary."
+  },
+  {
+    "primary": "System UI (safe default)",
+    "stack": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans JP\", \"Hiragino Sans\", sans-serif",
+    "notes": "Safest cross-platform. Uses OS default for each platform."
+  }
+]

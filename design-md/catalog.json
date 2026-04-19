@@ -1,0 +1,2018 @@
+{
+  "total": 82,
+  "brands": [
+    {
+      "name": "abema",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#00b900",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "airbnb",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#ff385c",
+      "fonts": {
+        "sans": "Airbnb Cereal VF",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "airtable",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#181d26",
+      "fonts": {
+        "sans": "#181d26",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "apple",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#1d1d1f",
+      "fonts": {
+        "sans": "SF Pro JP",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "apple",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "SF Pro Display",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "bmw",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#ffffff",
+      "fonts": {
+        "sans": "1px solid #ffffff",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "cal",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#242424",
+      "fonts": {
+        "sans": "Cal Sans",
+        "mono": "#242424"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "claude",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#141413",
+      "fonts": {
+        "sans": "Anthropic Serif",
+        "mono": "#c96442"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "clay",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": null,
+        "mono": "rotateZ(-8deg)"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "clickhouse",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#faff69",
+      "fonts": {
+        "sans": "Inter",
+        "mono": "1px solid rgba(65"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "cohere",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "CohereText",
+        "mono": "#000000"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "coinbase",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "finance",
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#0052ff",
+      "fonts": {
+        "sans": "#578bfa",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "composio",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#0007cd",
+      "fonts": {
+        "sans": "abcDiatype",
+        "mono": "4px 4px"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "connpass",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal"
+      ],
+      "primaryColor": "#f18d05",
+      "fonts": {
+        "sans": "#fff",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "cookpad",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#f28c06",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "cursor",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#26251e",
+      "fonts": {
+        "sans": "CursorGothic",
+        "mono": "oklab()"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "cybozu",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "saas",
+        "media",
+        "creative"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#333333",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "droga5",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#0000d5",
+      "fonts": {
+        "sans": "#000000",
+        "mono": "Roboto Mono"
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "elevenlabs",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#ffffff",
+      "fonts": {
+        "sans": null,
+        "mono": "#ffffff"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "expo",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "Inter",
+        "mono": "#000000"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "ferrari",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#da291c",
+      "fonts": {
+        "sans": "text-transform: uppercase",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "figma",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "figmaSans",
+        "mono": "kern"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "framer",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "GT Walsheim Framer Medium",
+        "mono": "Azeret Mono"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "freee",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "finance",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#2864f0",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "hashicorp",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "ibm",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#0f62fe",
+      "fonts": {
+        "sans": "IBM Plex Sans",
+        "mono": "--cds-"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "intercom",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#111111",
+      "fonts": {
+        "sans": null,
+        "mono": "scale(1.1)"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "kraken",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#5741d8",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "lamborghini",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#ffc000",
+      "fonts": {
+        "sans": "LamboType",
+        "mono": "object-fit: cover"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "line",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#06c755",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "linear.app",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#f7f8f8",
+      "fonts": {
+        "sans": "Inter Variable",
+        "mono": "#5e6ad2"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "lovable",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#f7f4ed",
+      "fonts": {
+        "sans": "Camera Plain Variable",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "mercari",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "corporate"
+      ],
+      "primaryColor": "#ff333f",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "minimax",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#1456f0",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "mintlify",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#0d0d0d",
+      "fonts": {
+        "sans": "#18E299",
+        "mono": "#18E299"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "miro",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#1c1c1e",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "mistral.ai",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#fa520f",
+      "fonts": {
+        "sans": "Arial",
+        "mono": "text-transform: uppercase"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "moneyforward",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "saas",
+        "finance",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#4db848",
+      "fonts": {
+        "sans": "にヒラギノ角ゴ Pro 1つだけを指定しない（Windows環境で表示崩れ）\n- 日本語本文に",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "mongodb",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#001e2b",
+      "fonts": {
+        "sans": null,
+        "mono": "Akzidenz-Grotesk Std"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "muji",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "neutral"
+      ],
+      "primaryColor": "#7f0019",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "note",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#5ac8b8",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "notion",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "に和文フォントだけを指定しない（NotionInter → システムフォントの順序を守る）\n- ダーク背景上に低コントラストのテキスト (",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "notion",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "NotionInter",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "novasell",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative"
+      ],
+      "mood": [
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#00fa27",
+      "fonts": {
+        "sans": null,
+        "mono": "): プレースホルダー\n- **Silver** ("
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "nvidia",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#76b900",
+      "fonts": {
+        "sans": "#76b900",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "ollama",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "SF Pro Rounded",
+        "mono": "#000000"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "opencode.ai",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#201d1d",
+      "fonts": {
+        "sans": "#201d1d",
+        "mono": "#201d1d"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "pinterest",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#e60023",
+      "fonts": {
+        "sans": "Pin Sans",
+        "mono": "#e60023"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "pixiv",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#0096fa",
+      "fonts": {
+        "sans": "にシステムフォントスタックの一部だけを指定しない\n- body の font-size を 12px 未満にしない\n- 作品サムネイルにアスペクト比の歪みを発生させない\n-",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "posthog",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#4d4f46",
+      "fonts": {
+        "sans": "IBM Plex Sans Variable",
+        "mono": "ui-monospace"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "qiita",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#55c500",
+      "fonts": {
+        "sans": "rgba(0",
+        "mono": "#f0f0f0"
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "rakuten",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#bf0000",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "raycast",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#07080a",
+      "fonts": {
+        "sans": "Inter",
+        "mono": "#07080a"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "renault",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#1883fd",
+      "fonts": {
+        "sans": "sans-serif",
+        "mono": "#EFDF00"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "replicate",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#202020",
+      "fonts": {
+        "sans": "rb-freigeist-neue",
+        "mono": "#202020"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "resend",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": null,
+        "mono": "rgba(214"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "revolut",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#191c1f",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "runwayml",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#767d88",
+      "fonts": {
+        "sans": "abcNormal",
+        "mono": "1px solid #27272a"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "sanity",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "dark"
+      ],
+      "primaryColor": "#0052ef",
+      "fonts": {
+        "sans": "waldenburgNormal",
+        "mono": "#0b0b0b"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "sansan",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#042a6d",
+      "fonts": {
+        "sans": "#042a6d",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "sentry",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#1f1633",
+      "fonts": {
+        "sans": null,
+        "mono": "#79628c"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "smarthr",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative"
+      ],
+      "mood": [
+        "bold",
+        "corporate"
+      ],
+      "primaryColor": "#00c4cc",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": false,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "spacex",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "spotify",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#1ed760",
+      "fonts": {
+        "sans": "rgba(0",
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "stripe",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "finance",
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#061b31",
+      "fonts": {
+        "sans": "sohne-var",
+        "mono": "#533afd"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "studio",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#0275fd",
+      "fonts": {
+        "sans": "Inter",
+        "mono": "FOR BUSINESS"
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "supabase",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#0f0f0f",
+      "fonts": {
+        "sans": null,
+        "mono": "--colors-crimson4"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "superhuman",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#1b1938",
+      "fonts": {
+        "sans": "Super Sans VF",
+        "mono": "from Luzi Type — used in the product itself for sans-serif-to-serif transitions\n\n### Hierarchy\n\n| Role | Font | Size | Weight | Line Height | Letter Spacing | Notes |\n|------|------|------|--------|-------------|----------------|-------|\n| Display Hero | Super Sans VF | 64px | 540 | 0.96 | 0px | Maximum compression"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "tabelog",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#f09000",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "tesla",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "playful",
+        "dark"
+      ],
+      "primaryColor": "#3e6ae1",
+      "fonts": {
+        "sans": "#3E6AE1",
+        "mono": "object-fit: cover"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "together.ai",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#ef2cc1",
+      "fonts": {
+        "sans": "The Future",
+        "mono": "#ef2cc1"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "toyota",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#eb0a1e",
+      "fonts": {
+        "sans": "#222222",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "uber",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#000000",
+      "fonts": {
+        "sans": "UberMove",
+        "mono": "#000000"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "vercel",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#171717",
+      "fonts": {
+        "sans": "liga",
+        "mono": "liga"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "voltagent",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#00d992",
+      "fonts": {
+        "sans": "system-ui",
+        "mono": "#050507"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "warp",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#faf9f6",
+      "fonts": {
+        "sans": "#353534",
+        "mono": "#faf9f6"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "webflow",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "dark"
+      ],
+      "primaryColor": "#7a3dff",
+      "fonts": {
+        "sans": null,
+        "mono": "#080808"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "wired",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "dark"
+      ],
+      "primaryColor": "#2b2e35",
+      "fonts": {
+        "sans": null,
+        "mono": "をナビやラベルに使用。記事本文にはグローバルに"
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "wise",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "creative",
+        "automotive"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "corporate",
+        "dark"
+      ],
+      "primaryColor": "#0e0f0c",
+      "fonts": {
+        "sans": null,
+        "mono": null
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "x.ai",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#ffffff",
+      "fonts": {
+        "sans": "GeistMono",
+        "mono": "#1f2228"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "zapier",
+      "source": "Meliwat/awesome-design-md-pre-paywall",
+      "category": [
+        "saas",
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "warm",
+        "bold",
+        "dark"
+      ],
+      "primaryColor": "#fffefb",
+      "fonts": {
+        "sans": null,
+        "mono": "#fffefb"
+      },
+      "hasJpTypo": false,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    },
+    {
+      "name": "zenn",
+      "source": "kzhrknt/awesome-design-md-jp",
+      "category": [
+        "ecommerce",
+        "media",
+        "creative",
+        "automotive",
+        "devtool"
+      ],
+      "mood": [
+        "minimal",
+        "dark"
+      ],
+      "primaryColor": "#3ea8ff",
+      "fonts": {
+        "sans": "に和文フォント1つだけを指定しない\n- 日本語本文に",
+        "mono": null
+      },
+      "hasJpTypo": true,
+      "hasDarkMode": true,
+      "sections": 9,
+      "lastSynced": "2026-04-19"
+    }
+  ]
+}

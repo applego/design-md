@@ -1,0 +1,25 @@
+{
+  "name": "mistral.ai",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#fa520f",
+  "fonts": {
+    "sans": "Arial",
+    "mono": "text-transform: uppercase"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

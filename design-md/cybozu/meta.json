@@ -1,0 +1,24 @@
+{
+  "name": "cybozu",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "saas",
+    "media",
+    "creative"
+  ],
+  "mood": [
+    "minimal",
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#333333",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": false,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

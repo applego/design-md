@@ -1,0 +1,24 @@
+{
+  "name": "airbnb",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#ff385c",
+  "fonts": {
+    "sans": "Airbnb Cereal VF",
+    "mono": null
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

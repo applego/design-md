@@ -1,0 +1,25 @@
+{
+  "name": "moneyforward",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "saas",
+    "finance",
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#4db848",
+  "fonts": {
+    "sans": "にヒラギノ角ゴ Pro 1つだけを指定しない（Windows環境で表示崩れ）\n- 日本語本文に",
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

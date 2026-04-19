@@ -1,0 +1,21 @@
+{
+  "name": "muji",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "neutral"
+  ],
+  "primaryColor": "#7f0019",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": false,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

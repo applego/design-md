@@ -1,0 +1,24 @@
+{
+  "name": "revolut",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#191c1f",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "renault",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#1883fd",
+  "fonts": {
+    "sans": "sans-serif",
+    "mono": "#EFDF00"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

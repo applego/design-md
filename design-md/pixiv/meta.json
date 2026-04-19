@@ -1,0 +1,21 @@
+{
+  "name": "pixiv",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "dark"
+  ],
+  "primaryColor": "#0096fa",
+  "fonts": {
+    "sans": "にシステムフォントスタックの一部だけを指定しない\n- body の font-size を 12px 未満にしない\n- 作品サムネイルにアスペクト比の歪みを発生させない\n-",
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

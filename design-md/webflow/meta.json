@@ -1,0 +1,23 @@
+{
+  "name": "webflow",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "dark"
+  ],
+  "primaryColor": "#7a3dff",
+  "fonts": {
+    "sans": null,
+    "mono": "#080808"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

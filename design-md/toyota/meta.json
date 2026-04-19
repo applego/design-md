@@ -1,0 +1,22 @@
+{
+  "name": "toyota",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#eb0a1e",
+  "fonts": {
+    "sans": "#222222",
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

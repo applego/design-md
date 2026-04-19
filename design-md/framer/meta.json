@@ -1,0 +1,27 @@
+{
+  "name": "framer",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#000000",
+  "fonts": {
+    "sans": "GT Walsheim Framer Medium",
+    "mono": "Azeret Mono"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

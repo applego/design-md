@@ -1,0 +1,60 @@
+name: Sync Upstream
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Every Monday 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync JP upstream (kzhrknt/awesome-design-md-jp)
+        run: |
+          git subtree pull --prefix=upstream/jp \
+            https://github.com/kzhrknt/awesome-design-md-jp.git main --squash \
+            -m "sync(upstream): JP brands from kzhrknt/awesome-design-md-jp" || true
+
+      - name: Sync EN upstream (Meliwat/awesome-design-md-pre-paywall)
+        run: |
+          git subtree pull --prefix=upstream/en \
+            https://github.com/Meliwat/awesome-design-md-pre-paywall.git main --squash \
+            -m "sync(upstream): EN brands from Meliwat/awesome-design-md-pre-paywall" || true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build catalog
+        run: node scripts/build-catalog.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create PR
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          BRANCH="sync/upstream-$(date +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git commit -m "sync: upstream更新取り込み $(date +%Y-%m-%d)"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "sync: upstream更新 $(date +%Y-%m-%d)" \
+            --body "Weekly upstream sync from kzhrknt/awesome-design-md-jp + Meliwat/awesome-design-md-pre-paywall" \
+            --base main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

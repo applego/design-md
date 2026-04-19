@@ -1,0 +1,26 @@
+{
+  "name": "raycast",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#07080a",
+  "fonts": {
+    "sans": "Inter",
+    "mono": "#07080a"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

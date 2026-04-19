@@ -1,0 +1,28 @@
+{
+  "name": "replicate",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "corporate",
+    "playful",
+    "dark"
+  ],
+  "primaryColor": "#202020",
+  "fonts": {
+    "sans": "rb-freigeist-neue",
+    "mono": "#202020"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

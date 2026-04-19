@@ -1,0 +1,26 @@
+{
+  "name": "stripe",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "saas",
+    "finance",
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#061b31",
+  "fonts": {
+    "sans": "sohne-var",
+    "mono": "#533afd"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

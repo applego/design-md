@@ -1,0 +1,24 @@
+{
+  "name": "mercari",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "corporate"
+  ],
+  "primaryColor": "#ff333f",
+  "fonts": {
+    "sans": null,
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": false,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

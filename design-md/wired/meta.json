@@ -1,0 +1,22 @@
+{
+  "name": "wired",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "dark"
+  ],
+  "primaryColor": "#2b2e35",
+  "fonts": {
+    "sans": null,
+    "mono": "をナビやラベルに使用。記事本文にはグローバルに"
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

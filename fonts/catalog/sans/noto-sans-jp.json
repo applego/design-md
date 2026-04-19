@@ -1,0 +1,19 @@
+{
+  "name": "Noto Sans JP",
+  "type": "sans-serif",
+  "language": "japanese",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["palt", "kern", "liga", "calt"],
+  "cdn": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900",
+  "usedBy": ["freee", "note", "muji"],
+  "pairsWith": ["Inter", "Geist", "SF Pro"],
+  "cjk": {
+    "lineHeight": "1.7-2.0",
+    "letterSpacing": "0.04em",
+    "lineBreak": "strict",
+    "opentype": ["palt", "kern"],
+    "notes": "Most versatile JP font. Good weight range. Slightly wider than Hiragino."
+  }
+}

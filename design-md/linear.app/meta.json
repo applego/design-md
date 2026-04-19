@@ -1,0 +1,26 @@
+{
+  "name": "linear.app",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "saas",
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#f7f8f8",
+  "fonts": {
+    "sans": "Inter Variable",
+    "mono": "#5e6ad2"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

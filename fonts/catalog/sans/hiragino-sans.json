@@ -1,0 +1,20 @@
+{
+  "name": "Hiragino Sans",
+  "type": "sans-serif",
+  "language": "japanese",
+  "license": "commercial",
+  "variable": false,
+  "weights": [300, 400, 500, 600, 700, 800],
+  "features": ["palt", "kern"],
+  "cdn": null,
+  "platform": "macOS/iOS bundled",
+  "usedBy": ["smarthr", "apple"],
+  "pairsWith": ["Inter", "SF Pro", "Helvetica Neue"],
+  "cjk": {
+    "lineHeight": "1.5-1.8",
+    "letterSpacing": "0.02-0.04em",
+    "lineBreak": "strict",
+    "opentype": ["palt"],
+    "notes": "macOS default. Tighter than Noto. Best for native Apple feel."
+  }
+}

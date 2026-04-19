@@ -1,0 +1,26 @@
+{
+  "name": "coinbase",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "finance",
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal",
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#0052ff",
+  "fonts": {
+    "sans": "#578bfa",
+    "mono": null
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

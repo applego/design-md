@@ -1,0 +1,12 @@
+{
+  "name": "Inter",
+  "type": "sans-serif",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["cv01", "cv02", "ss01", "ss02", "ss03", "liga", "calt", "tnum", "zero"],
+  "cdn": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900",
+  "usedBy": ["linear.app", "notion", "studio", "cal"],
+  "pairsWith": ["Noto Sans JP", "Hiragino Sans"],
+  "notes": "Most popular UI font. Variable with display-specific alternates."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "connpass",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "saas",
+    "ecommerce",
+    "creative",
+    "automotive"
+  ],
+  "mood": [
+    "minimal"
+  ],
+  "primaryColor": "#f18d05",
+  "fonts": {
+    "sans": "#fff",
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": false,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

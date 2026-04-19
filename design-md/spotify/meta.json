@@ -1,0 +1,25 @@
+{
+  "name": "spotify",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#1ed760",
+  "fonts": {
+    "sans": "rgba(0",
+    "mono": null
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

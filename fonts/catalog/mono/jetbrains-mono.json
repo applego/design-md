@@ -1,0 +1,12 @@
+{
+  "name": "JetBrains Mono",
+  "type": "monospace",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800],
+  "features": ["liga", "calt", "zero", "ss01", "ss02", "cv01", "cv02"],
+  "cdn": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800",
+  "usedBy": ["billing-pl"],
+  "pairsWith": ["Inter", "Noto Sans JP"],
+  "notes": "Best for code and metrics. Increased height for better readability. 138 code ligatures."
+}

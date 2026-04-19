@@ -1,0 +1,28 @@
+{
+  "name": "claude",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "saas",
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "corporate",
+    "dark"
+  ],
+  "primaryColor": "#141413",
+  "fonts": {
+    "sans": "Anthropic Serif",
+    "mono": "#c96442"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "superhuman",
+  "source": "Meliwat/awesome-design-md-pre-paywall",
+  "category": [
+    "ecommerce",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "warm",
+    "bold",
+    "dark"
+  ],
+  "primaryColor": "#1b1938",
+  "fonts": {
+    "sans": "Super Sans VF",
+    "mono": "from Luzi Type — used in the product itself for sans-serif-to-serif transitions\n\n### Hierarchy\n\n| Role | Font | Size | Weight | Line Height | Letter Spacing | Notes |\n|------|------|------|--------|-------------|----------------|-------|\n| Display Hero | Super Sans VF | 64px | 540 | 0.96 | 0px | Maximum compression"
+  },
+  "hasJpTypo": false,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "zenn",
+  "source": "kzhrknt/awesome-design-md-jp",
+  "category": [
+    "ecommerce",
+    "media",
+    "creative",
+    "automotive",
+    "devtool"
+  ],
+  "mood": [
+    "minimal",
+    "dark"
+  ],
+  "primaryColor": "#3ea8ff",
+  "fonts": {
+    "sans": "に和文フォント1つだけを指定しない\n- 日本語本文に",
+    "mono": null
+  },
+  "hasJpTypo": true,
+  "hasDarkMode": true,
+  "sections": 9,
+  "lastSynced": "2026-04-19"
+}
