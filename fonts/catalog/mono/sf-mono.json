@@ -1,0 +1,13 @@
+{
+  "name": "SF Mono",
+  "type": "monospace",
+  "license": "commercial",
+  "variable": false,
+  "weights": [300, 400, 500, 600, 700, 900],
+  "features": ["liga", "calt", "zero"],
+  "cdn": null,
+  "platform": "macOS bundled",
+  "usedBy": ["apple"],
+  "pairsWith": ["SF Pro", "Hiragino Sans", "Inter"],
+  "notes": "Apple's system monospace. Ships with Xcode and Terminal.app. Pairs natively with SF Pro for a cohesive Apple-ecosystem developer experience."
+}

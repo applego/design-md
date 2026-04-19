@@ -3,8 +3,25 @@
   "version": "0.1.0",
   "description": "DESIGN.md collection, CLI, font manager, and gallery. JP+EN unified.",
   "type": "module",
+  "main": "./cli/bin/design-md.mjs",
+  "exports": {
+    ".": "./cli/bin/design-md.mjs",
+    "./catalog.json": "./design-md/catalog.json"
+  },
   "bin": {
     "design-md": "./cli/bin/design-md.mjs"
+  },
+  "files": [
+    "cli/",
+    "fonts/",
+    "design-md/catalog.json",
+    "design-md/*/DESIGN.md",
+    "design-md/*/meta.json",
+    "design-md/*/preview.html",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
   },
   "scripts": {
     "build:catalog": "node scripts/build-catalog.mjs",

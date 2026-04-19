@@ -1,0 +1,13 @@
+{
+  "name": "Geist Mono",
+  "type": "monospace",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["liga", "calt", "zero", "ss01", "ss02"],
+  "cdn": null,
+  "npm": "@vercel/font",
+  "usedBy": ["vercel"],
+  "pairsWith": ["Geist", "Inter", "Noto Sans JP"],
+  "notes": "Vercel's companion monospace. Designed as the code counterpart to Geist sans-serif. Clean, minimal ligatures, excellent for terminals and code blocks."
+}

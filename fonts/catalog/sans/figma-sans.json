@@ -1,0 +1,12 @@
+{
+  "name": "Figma Sans",
+  "type": "sans-serif",
+  "license": "commercial",
+  "variable": true,
+  "weights": [400, 500, 600, 700],
+  "features": ["liga", "calt", "kern", "tnum"],
+  "cdn": null,
+  "usedBy": ["figma"],
+  "pairsWith": ["Noto Sans JP", "Inter", "Geist Mono"],
+  "notes": "Figma's custom typeface introduced with the 2024 rebrand. Balanced geometric proportions tailored for design tool UI. Used across Figma's product and marketing."
+}

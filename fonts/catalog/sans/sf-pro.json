@@ -1,0 +1,13 @@
+{
+  "name": "SF Pro",
+  "type": "sans-serif",
+  "license": "commercial",
+  "variable": true,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["liga", "calt", "tnum", "ss01", "ss02", "cv01"],
+  "cdn": null,
+  "platform": "macOS/iOS bundled",
+  "usedBy": ["apple", "icloud"],
+  "pairsWith": ["Hiragino Sans", "Noto Sans JP", "SF Mono"],
+  "notes": "Apple's system font since San Francisco. Optical sizes (Text/Display) auto-switch at 20pt. The gold standard for Apple platforms."
+}

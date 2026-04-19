@@ -1,0 +1,15 @@
+{
+  "western": "SF Pro",
+  "japanese": "Hiragino Sans",
+  "description": "Apple's native system pairing. Zero-config on macOS/iOS. Tightest metrics of any JP combo.",
+  "usedBy": ["apple", "smarthr"],
+  "stack": "\"-apple-system\", \"BlinkMacSystemFont\", \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+  "settings": {
+    "bodyLineHeight": 1.6,
+    "bodyLetterSpacing": "0.02em",
+    "headingLetterSpacing": "0em",
+    "lineBreak": "strict",
+    "opentype": ["palt"]
+  },
+  "cdn": null
+}

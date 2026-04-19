@@ -1,0 +1,12 @@
+{
+  "name": "Söhne",
+  "type": "sans-serif",
+  "license": "commercial",
+  "variable": false,
+  "weights": [100, 200, 300, 400, 500, 600, 700, 800],
+  "features": ["liga", "calt", "kern", "tnum", "ss01"],
+  "cdn": null,
+  "usedBy": ["stripe"],
+  "pairsWith": ["Noto Sans JP", "Hiragino Sans", "JetBrains Mono"],
+  "notes": "Klim Type Foundry's Akzidenz-Grotesk successor. Crisp, authoritative, and engineered for fintech. Stripe's primary typeface."
+}

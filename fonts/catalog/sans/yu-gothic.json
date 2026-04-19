@@ -1,0 +1,20 @@
+{
+  "name": "Yu Gothic",
+  "type": "sans-serif",
+  "language": "japanese",
+  "license": "commercial",
+  "variable": false,
+  "weights": [300, 400, 500, 700],
+  "features": ["palt", "kern", "liga"],
+  "cdn": null,
+  "platform": "Windows/macOS bundled",
+  "usedBy": [],
+  "pairsWith": ["Roboto", "Inter", "Helvetica Neue"],
+  "cjk": {
+    "lineHeight": "1.6-1.9",
+    "letterSpacing": "0.02-0.04em",
+    "lineBreak": "strict",
+    "opentype": ["palt", "kern"],
+    "notes": "Windows default JP font since 8.1. Modern and legible. Lighter feel than Meiryo. Available on macOS as Yu Gothic Medium."
+  }
+}

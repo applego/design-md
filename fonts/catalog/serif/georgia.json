@@ -1,0 +1,13 @@
+{
+  "name": "Georgia",
+  "type": "serif",
+  "license": "commercial",
+  "variable": false,
+  "weights": [400, 700],
+  "features": ["liga", "kern"],
+  "cdn": null,
+  "platform": "Windows/macOS bundled",
+  "usedBy": [],
+  "pairsWith": ["Inter", "Roboto", "Noto Serif JP"],
+  "notes": "Matthew Carter's screen-optimized serif. Designed for low-resolution displays but remains excellent at all sizes. The web's most reliable serif. Pairs well with any sans-serif."
+}

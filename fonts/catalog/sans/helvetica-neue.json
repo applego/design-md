@@ -1,0 +1,13 @@
+{
+  "name": "Helvetica Neue",
+  "type": "sans-serif",
+  "license": "commercial",
+  "variable": false,
+  "weights": [100, 200, 300, 400, 500, 700, 900],
+  "features": ["liga", "kern"],
+  "cdn": null,
+  "platform": "macOS bundled",
+  "usedBy": ["muji"],
+  "pairsWith": ["Hiragino Sans", "Noto Sans JP", "Georgia"],
+  "notes": "The classic neo-grotesque. Tighter metrics than Helvetica. Pre-SF Pro Apple default. Still widely used in print-influenced digital design."
+}

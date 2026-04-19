@@ -1,0 +1,12 @@
+{
+  "name": "Circular",
+  "type": "sans-serif",
+  "license": "commercial",
+  "variable": false,
+  "weights": [300, 400, 500, 700, 900],
+  "features": ["liga", "calt", "kern", "ss01"],
+  "cdn": null,
+  "usedBy": ["spotify", "airbnb"],
+  "pairsWith": ["Noto Sans JP", "Hiragino Sans", "SF Mono"],
+  "notes": "Lineto's geometric sans-serif. Friendly, rounded geometry with excellent readability. Defined the modern SaaS aesthetic alongside Spotify's brand refresh."
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESIGN.md Gallery — 82 Brand Design Systems</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+  :root{
+    --bg:#0a0a0b;
+    --surface:#141417;
+    --surface-hover:#1c1c21;
+    --border:#27272a;
+    --text:#fafafa;
+    --text-secondary:#a1a1aa;
+    --text-tertiary:#71717a;
+    --accent:#6366f1;
+    --accent-hover:#818cf8;
+    --radius:10px;
+    --radius-sm:6px;
+    --font-sans:'Inter','Noto Sans JP',system-ui,-apple-system,sans-serif;
+  }
+
+  html{font-size:16px;-webkit-font-smoothing:antialiased}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--font-sans);
+    line-height:1.6;
+    min-height:100vh;
+  }
+
+  /* Header */
+  .header{
+    max-width:1360px;
+    margin:0 auto;
+    padding:40px 24px 0;
+  }
+  .header h1{
+    font-size:1.75rem;
+    font-weight:700;
+    letter-spacing:-0.02em;
+    margin-bottom:4px;
+  }
+  .header h1 span{color:var(--accent)}
+  .header p{
+    color:var(--text-secondary);
+    font-size:0.875rem;
+    margin-bottom:24px;
+  }
+
+  /* Search bar */
+  .search-wrap{
+    max-width:1360px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+  .search-input{
+    width:100%;
+    max-width:480px;
+    padding:10px 16px 10px 40px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    color:var(--text);
+    font-size:0.875rem;
+    font-family:var(--font-sans);
+    outline:none;
+    transition:border-color .15s;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2371717a' viewBox='0 0 24 24'%3E%3Cpath d='M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z' stroke='%2371717a' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;
+    background-position:14px center;
+  }
+  .search-input::placeholder{color:var(--text-tertiary)}
+  .search-input:focus{border-color:var(--accent)}
+
+  /* Filter buttons */
+  .filters{
+    max-width:1360px;
+    margin:0 auto;
+    padding:16px 24px 0;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .filter-btn{
+    padding:6px 14px;
+    font-size:0.75rem;
+    font-weight:500;
+    font-family:var(--font-sans);
+    border:1px solid var(--border);
+    border-radius:20px;
+    background:transparent;
+    color:var(--text-secondary);
+    cursor:pointer;
+    transition:all .15s;
+    text-transform:capitalize;
+    user-select:none;
+  }
+  .filter-btn:hover{
+    border-color:var(--text-tertiary);
+    color:var(--text);
+  }
+  .filter-btn.active{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+  }
+
+  /* Stats */
+  .stats{
+    max-width:1360px;
+    margin:0 auto;
+    padding:20px 24px 0;
+    font-size:0.8rem;
+    color:var(--text-tertiary);
+  }
+  .stats strong{color:var(--text-secondary)}
+
+  /* Grid */
+  .grid{
+    max-width:1360px;
+    margin:0 auto;
+    padding:20px 24px 60px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:16px;
+  }
+
+  /* Card */
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:20px;
+    cursor:pointer;
+    transition:all .2s;
+    text-decoration:none;
+    color:inherit;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    position:relative;
+    overflow:hidden;
+  }
+  .card:hover{
+    background:var(--surface-hover);
+    border-color:var(--text-tertiary);
+    transform:translateY(-2px);
+    box-shadow:0 8px 24px rgba(0,0,0,.3);
+  }
+  .card-top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .color-chip{
+    width:36px;
+    height:36px;
+    border-radius:var(--radius-sm);
+    flex-shrink:0;
+    border:1px solid rgba(255,255,255,.08);
+  }
+  .card-name{
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:-0.01em;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .badge-jp{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.6rem;
+    font-weight:700;
+    background:rgba(239,68,68,.15);
+    color:#f87171;
+    padding:2px 6px;
+    border-radius:4px;
+    margin-left:6px;
+    letter-spacing:0.04em;
+    flex-shrink:0;
+  }
+  .card-meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+  .tag{
+    font-size:0.675rem;
+    font-weight:500;
+    padding:2px 8px;
+    border-radius:4px;
+    background:rgba(99,102,241,.1);
+    color:var(--accent-hover);
+    text-transform:capitalize;
+  }
+  .tag.mood{
+    background:rgba(161,161,170,.1);
+    color:var(--text-tertiary);
+  }
+  .card-foot{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:0.7rem;
+    color:var(--text-tertiary);
+    margin-top:auto;
+  }
+  .card-foot .source{
+    max-width:160px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .card-foot .sections{
+    flex-shrink:0;
+  }
+  .dark-badge{
+    font-size:0.6rem;
+    background:rgba(255,255,255,.06);
+    color:var(--text-tertiary);
+    padding:1px 5px;
+    border-radius:3px;
+    margin-left:4px;
+  }
+
+  /* Empty state */
+  .empty{
+    grid-column:1/-1;
+    text-align:center;
+    padding:60px 20px;
+    color:var(--text-tertiary);
+  }
+  .empty h3{font-size:1.1rem;margin-bottom:8px;color:var(--text-secondary)}
+
+  /* Loading */
+  .loading{
+    text-align:center;
+    padding:80px 20px;
+    color:var(--text-tertiary);
+    font-size:0.9rem;
+  }
+
+  @media(max-width:640px){
+    .header{padding:24px 16px 0}
+    .header h1{font-size:1.4rem}
+    .search-wrap,.filters,.stats,.grid{padding-left:16px;padding-right:16px}
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>DESIGN.md</span> Gallery</h1>
+  <p>Browse 82 brand design systems — click any card to open its preview</p>
+</div>
+
+<div class="search-wrap">
+  <input type="text" class="search-input" id="search" placeholder="Search by name, category, or mood..." autofocus>
+</div>
+
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-cat="all">All</button>
+  <button class="filter-btn" data-cat="saas">SaaS</button>
+  <button class="filter-btn" data-cat="finance">Finance</button>
+  <button class="filter-btn" data-cat="ecommerce">E-commerce</button>
+  <button class="filter-btn" data-cat="media">Media</button>
+  <button class="filter-btn" data-cat="creative">Creative</button>
+  <button class="filter-btn" data-cat="devtool">DevTool</button>
+  <button class="filter-btn" data-cat="general">General</button>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="grid" id="grid">
+  <div class="loading">Loading catalog&hellip;</div>
+</div>
+
+<script>
+(async () => {
+  const grid = document.getElementById('grid');
+  const search = document.getElementById('search');
+  const filtersEl = document.getElementById('filters');
+  const statsEl = document.getElementById('stats');
+
+  let brands = [];
+  let activeCat = 'all';
+
+  // Fetch catalog
+  try {
+    const res = await fetch('../design-md/catalog.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    brands = data.brands || [];
+  } catch (err) {
+    grid.innerHTML = `<div class="empty"><h3>Failed to load catalog</h3><p>${err.message}<br>Make sure catalog.json exists at ../design-md/catalog.json</p></div>`;
+    return;
+  }
+
+  // De-duplicate: if same name appears from both sources, prefer JP source
+  const seen = new Map();
+  for (const b of brands) {
+    const key = b.name;
+    if (!seen.has(key)) {
+      seen.set(key, b);
+    } else {
+      // Prefer JP source
+      const existing = seen.get(key);
+      if (b.source.includes('jp') && !existing.source.includes('jp')) {
+        // Merge: keep JP but mark as having EN too
+        b._alsoEN = true;
+        seen.set(key, b);
+      } else if (existing.source.includes('jp')) {
+        existing._alsoEN = true;
+      }
+    }
+  }
+  brands = Array.from(seen.values());
+
+  function render() {
+    const q = search.value.toLowerCase().trim();
+    const filtered = brands.filter(b => {
+      // Category filter
+      if (activeCat !== 'all') {
+        if (activeCat === 'general') {
+          // "general" = brands with automotive only (the default/general category)
+          const nonGeneral = ['saas','finance','ecommerce','media','creative','devtool'];
+          if (b.category.some(c => nonGeneral.includes(c))) return false;
+        } else {
+          if (!b.category.includes(activeCat)) return false;
+        }
+      }
+      // Search filter
+      if (q) {
+        const haystack = [
+          b.name,
+          ...b.category,
+          ...(b.mood || []),
+          b.hasJpTypo ? 'japanese jp' : '',
+          b.fonts?.sans || '',
+        ].join(' ').toLowerCase();
+        return haystack.includes(q);
+      }
+      return true;
+    });
+
+    statsEl.innerHTML = `Showing <strong>${filtered.length}</strong> of <strong>${brands.length}</strong> brands`;
+
+    if (filtered.length === 0) {
+      grid.innerHTML = `<div class="empty"><h3>No brands found</h3><p>Try a different search or filter</p></div>`;
+      return;
+    }
+
+    grid.innerHTML = filtered.map(b => {
+      const href = `../design-md/${encodeURIComponent(b.name)}/preview.html`;
+      const cats = b.category.filter(c => c !== 'automotive').map(c =>
+        `<span class="tag">${c}</span>`
+      ).join('');
+      const moods = (b.mood || []).map(m =>
+        `<span class="tag mood">${m}</span>`
+      ).join('');
+      const jp = b.hasJpTypo ? `<span class="badge-jp">JP</span>` : '';
+      const dark = b.hasDarkMode ? `<span class="dark-badge">dark</span>` : '';
+      const sourceShort = b.source.includes('jp') ? 'JP' : 'EN';
+
+      return `
+        <a class="card" href="${href}" target="_blank" rel="noopener">
+          <div class="card-top">
+            <div class="color-chip" style="background:${b.primaryColor}"></div>
+            <span class="card-name">${b.name}${jp}</span>
+          </div>
+          <div class="card-meta">${cats}${moods}</div>
+          <div class="card-foot">
+            <span class="source">${sourceShort}${dark}</span>
+            <span class="sections">${b.sections} sections</span>
+          </div>
+        </a>
+      `;
+    }).join('');
+  }
+
+  // Event listeners
+  search.addEventListener('input', render);
+
+  filtersEl.addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeCat = btn.dataset.cat;
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

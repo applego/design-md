@@ -1,0 +1,12 @@
+{
+  "name": "IBM Plex Mono",
+  "type": "monospace",
+  "license": "OFL-1.1",
+  "variable": false,
+  "weights": [100, 200, 300, 400, 500, 600, 700],
+  "features": ["liga", "calt", "zero", "ss01", "ss02"],
+  "cdn": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700",
+  "usedBy": [],
+  "pairsWith": ["Inter", "Roboto", "Noto Sans JP"],
+  "notes": "IBM's corporate monospace from the Plex superfamily. Neutral, engineered feel. Pairs naturally with IBM Plex Sans. Good for dashboards and data-heavy interfaces."
+}

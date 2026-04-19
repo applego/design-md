@@ -1,0 +1,20 @@
+{
+  "name": "Meiryo",
+  "type": "sans-serif",
+  "language": "japanese",
+  "license": "commercial",
+  "variable": false,
+  "weights": [400, 700],
+  "features": ["palt", "kern"],
+  "cdn": null,
+  "platform": "Windows bundled",
+  "usedBy": [],
+  "pairsWith": ["Inter", "Roboto", "Helvetica Neue"],
+  "cjk": {
+    "lineHeight": "1.6-1.8",
+    "letterSpacing": "0.02em",
+    "lineBreak": "strict",
+    "opentype": ["palt"],
+    "notes": "ClearType-optimized JP font for Windows Vista+. Wide glyphs, strong on-screen readability. Only two weights limit heading/body contrast."
+  }
+}

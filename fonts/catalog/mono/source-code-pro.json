@@ -1,0 +1,12 @@
+{
+  "name": "Source Code Pro",
+  "type": "monospace",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [200, 300, 400, 500, 600, 700, 800, 900],
+  "features": ["liga", "calt", "zero", "ss01"],
+  "cdn": "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900",
+  "usedBy": [],
+  "pairsWith": ["Roboto", "Inter", "Noto Sans JP"],
+  "notes": "Adobe's open-source monospace. Part of the Source family (Sans/Serif/Code). Wide language support and strong glyph distinction. Excellent for reading long code."
+}

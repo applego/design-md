@@ -1,0 +1,19 @@
+{
+  "name": "Noto Serif JP",
+  "type": "serif",
+  "language": "japanese",
+  "license": "OFL-1.1",
+  "variable": false,
+  "weights": [200, 300, 400, 500, 600, 700, 900],
+  "features": ["palt", "kern", "liga"],
+  "cdn": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900",
+  "usedBy": [],
+  "pairsWith": ["Noto Sans JP", "Inter", "Georgia"],
+  "cjk": {
+    "lineHeight": "1.8-2.2",
+    "letterSpacing": "0.04-0.06em",
+    "lineBreak": "strict",
+    "opentype": ["palt", "kern"],
+    "notes": "Full serif coverage for Japanese. Best for editorial, long-form reading, and formal contexts. Pairs with Noto Sans JP for serif/sans contrast within a single type system."
+  }
+}

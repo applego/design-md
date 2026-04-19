@@ -1,0 +1,12 @@
+{
+  "name": "Berkeley Mono",
+  "type": "monospace",
+  "license": "commercial",
+  "variable": false,
+  "weights": [400, 700],
+  "features": ["liga", "calt", "zero", "ss01", "cv01", "cv02"],
+  "cdn": null,
+  "usedBy": [],
+  "pairsWith": ["Inter", "Geist", "SF Pro"],
+  "notes": "Premium monospace inspired by Berkeley Old Style. Distinctive character with serif-like qualities. Popular among developers for its warmth and readability in editors and terminals."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Roboto",
+  "type": "sans-serif",
+  "license": "OFL-1.1",
+  "variable": true,
+  "weights": [100, 300, 400, 500, 700, 900],
+  "features": ["liga", "calt", "tnum", "kern"],
+  "cdn": "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900",
+  "usedBy": ["youtube", "google"],
+  "pairsWith": ["Noto Sans JP", "Roboto Mono", "Source Code Pro"],
+  "notes": "Google's signature typeface. Neo-grotesque with mechanical skeleton and natural curves. Default on Android and Material Design."
+}
