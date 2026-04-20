@@ -339,6 +339,11 @@ switch (cmd) {
   case 'apply':    await cmdApply(args[1], args[2]); break;
   case 'list':     await cmdList(); break;
   case 'generate': await cmdGenerate(args[1]); break;
+  case 'wizard': {
+    const { runWizard } = await import('../src/wizard.mjs');
+    await runWizard(CATALOG_DIR);
+    break;
+  }
   case 'fonts':
     switch (args[1]) {
       case 'list':  await cmdFontsList(); break;
@@ -358,6 +363,7 @@ Commands:
   compare <brandA> <brandB>     Compare two brands side-by-side
   apply <brand> [target-dir]    Copy DESIGN.md to your project
   generate <url>                Extract tokens from URL → DESIGN.md
+  wizard                        Interactive builder with live preview
   fonts list                    List available fonts
   fonts stack <font-name>       Generate fallback stack
   fonts pair <font-name>        Show pairing recommendations
