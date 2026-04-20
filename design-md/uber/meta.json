@@ -2,14 +2,10 @@
   "name": "uber",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive",
-    "devtool"
+    "consumer",
+    "transport"
   ],
   "mood": [
-    "minimal",
-    "warm",
     "bold",
     "dark"
   ],
@@ -21,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

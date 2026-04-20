@@ -2,9 +2,7 @@
   "name": "sanity",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive",
+    "media",
     "devtool"
   ],
   "mood": [
@@ -20,5 +18,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

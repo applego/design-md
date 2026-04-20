@@ -2,18 +2,12 @@
   "name": "vercel",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "saas",
-    "ecommerce",
-    "creative",
-    "automotive",
-    "devtool"
+    "devtool",
+    "saas"
   ],
   "mood": [
     "minimal",
-    "warm",
-    "bold",
-    "corporate",
-    "dark"
+    "monochrome"
   ],
   "primaryColor": "#171717",
   "fonts": {
@@ -23,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

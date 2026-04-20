@@ -5,13 +5,12 @@
       "name": "abema",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "entertainment"
       ],
       "mood": [
-        "bold",
-        "dark"
+        "dark",
+        "bold"
       ],
       "primaryColor": "#00b900",
       "fonts": {
@@ -21,21 +20,18 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "airbnb",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "ecommerce",
-        "creative",
-        "automotive"
+        "travel"
       ],
       "mood": [
-        "minimal",
         "warm",
-        "bold",
-        "dark"
+        "friendly"
       ],
       "primaryColor": "#ff385c",
       "fonts": {
@@ -45,20 +41,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "airtable",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
-        "bold",
-        "dark"
+        "warm"
       ],
       "primaryColor": "#181d26",
       "fonts": {
@@ -68,18 +61,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "apple",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "consumer",
+        "tech"
       ],
       "mood": [
-        "dark"
+        "minimal",
+        "premium"
       ],
       "primaryColor": "#1d1d1f",
       "fonts": {
@@ -89,22 +82,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "apple",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive"
+        "consumer",
+        "tech"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "premium"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -114,20 +103,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "bmw",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
         "automotive"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "corporate",
+        "premium",
         "dark"
       ],
       "primaryColor": "#ffffff",
@@ -138,24 +123,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "cal",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "saas",
+        "productivity"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "monochrome"
       ],
       "primaryColor": "#242424",
       "fonts": {
@@ -165,25 +144,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "claude",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "saas",
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
+        "ai",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "warm"
       ],
       "primaryColor": "#141413",
       "fonts": {
@@ -193,23 +165,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "clay",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
-        "minimal",
         "warm",
-        "bold",
-        "corporate",
-        "playful",
-        "dark"
+        "playful"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -219,20 +185,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "clickhouse",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool",
+        "database"
       ],
       "mood": [
-        "warm",
         "bold",
-        "corporate",
         "dark"
       ],
       "primaryColor": "#faff69",
@@ -243,22 +206,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "cohere",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -268,23 +226,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "coinbase",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "finance",
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive"
+        "crypto"
       ],
       "mood": [
-        "minimal",
-        "bold",
         "corporate",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#0052ff",
       "fonts": {
@@ -294,21 +247,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "composio",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#0007cd",
@@ -319,19 +267,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "connpass",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "saas",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "community"
       ],
       "mood": [
-        "minimal"
+        "warm"
       ],
       "primaryColor": "#f18d05",
       "fonts": {
@@ -341,19 +287,18 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "cookpad",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "consumer",
+        "food"
       ],
       "mood": [
-        "bold",
-        "dark"
+        "warm",
+        "friendly"
       ],
       "primaryColor": "#f28c06",
       "fonts": {
@@ -363,22 +308,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "cursor",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "devtool",
+        "ai"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "dark",
+        "minimal"
       ],
       "primaryColor": "#26251e",
       "fonts": {
@@ -388,21 +329,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "cybozu",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "saas",
-        "media",
-        "creative"
+        "enterprise"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "corporate",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#333333",
       "fonts": {
@@ -412,21 +349,17 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "droga5",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "creative",
-        "automotive"
+        "agency"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "playful",
-        "dark"
+        "bold"
       ],
       "primaryColor": "#0000d5",
       "fonts": {
@@ -436,16 +369,13 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "elevenlabs",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
@@ -461,22 +391,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "expo",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "devtool",
+        "mobile"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "corporate",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -486,23 +411,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "ferrari",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "automotive"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "premium",
+        "bold"
       ],
       "primaryColor": "#da291c",
       "fonts": {
@@ -512,23 +431,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "figma",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
         "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "bold",
-        "playful",
-        "dark"
+        "monochrome"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -538,23 +452,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "framer",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
-        "bold",
-        "corporate",
         "dark"
       ],
       "primaryColor": "#000000",
@@ -565,22 +473,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "freee",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "finance",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "saas",
+        "finance"
       ],
       "mood": [
-        "minimal",
-        "bold",
         "corporate",
-        "dark"
+        "warm"
       ],
       "primaryColor": "#2864f0",
       "fonts": {
@@ -590,20 +494,17 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "hashicorp",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "bold",
+        "warm",
         "dark"
       ],
       "primaryColor": "#000000",
@@ -614,23 +515,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "ibm",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "enterprise",
+        "tech"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "corporate",
-        "playful",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#0f62fe",
       "fonts": {
@@ -640,21 +535,19 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "intercom",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
-        "bold",
-        "dark"
+        "bold"
       ],
       "primaryColor": "#111111",
       "fonts": {
@@ -664,20 +557,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "kraken",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative"
+        "finance",
+        "crypto"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "corporate",
-        "dark"
+        "dark",
+        "bold"
       ],
       "primaryColor": "#5741d8",
       "fonts": {
@@ -687,20 +578,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "lamborghini",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
         "automotive"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
+        "premium",
         "dark"
       ],
       "primaryColor": "#ffc000",
@@ -711,20 +598,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "line",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "consumer",
+        "messaging"
       ],
       "mood": [
-        "minimal",
-        "corporate",
-        "dark"
+        "friendly",
+        "bold"
       ],
       "primaryColor": "#06c755",
       "fonts": {
@@ -734,22 +619,17 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "linear.app",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#f7f8f8",
@@ -760,23 +640,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "lovable",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "warm"
       ],
       "primaryColor": "#f7f4ed",
       "fonts": {
@@ -786,21 +661,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "mercari",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "ecommerce",
-        "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "consumer"
       ],
       "mood": [
-        "minimal",
-        "corporate"
+        "bold",
+        "friendly"
       ],
       "primaryColor": "#ff333f",
       "fonts": {
@@ -810,22 +682,20 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "minimax",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
+        "warm",
         "bold",
-        "playful",
-        "dark"
+        "dark",
+        "playful"
       ],
       "primaryColor": "#1456f0",
       "fonts": {
@@ -835,23 +705,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "mintlify",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "bold"
       ],
       "primaryColor": "#0d0d0d",
       "fonts": {
@@ -861,20 +725,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "miro",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "bold",
         "dark"
       ],
       "primaryColor": "#1c1c1e",
@@ -885,22 +745,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "mistral.ai",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
-        "bold",
-        "dark"
+        "bold"
       ],
       "primaryColor": "#fa520f",
       "fonts": {
@@ -910,22 +766,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "moneyforward",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "saas",
-        "finance",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "finance"
       ],
       "mood": [
-        "bold",
-        "corporate",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#4db848",
       "fonts": {
@@ -935,21 +786,19 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "mongodb",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "devtool"
       ],
       "mood": [
-        "minimal",
-        "warm",
         "bold",
+        "corporate",
         "dark"
       ],
       "primaryColor": "#001e2b",
@@ -960,18 +809,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "muji",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "ecommerce",
-        "creative",
-        "automotive"
+        "retail"
       ],
       "mood": [
-        "neutral"
+        "minimal",
+        "natural"
       ],
       "primaryColor": "#7f0019",
       "fonts": {
@@ -981,22 +830,18 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "note",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "editorial"
       ],
       "mood": [
         "warm",
-        "bold",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#5ac8b8",
       "fonts": {
@@ -1006,19 +851,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "notion",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "productivity"
       ],
       "mood": [
-        "dark"
+        "warm",
+        "minimal"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -1028,25 +872,18 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "notion",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "productivity"
       ],
       "mood": [
-        "minimal",
         "warm",
-        "bold",
-        "corporate",
-        "playful",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -1056,14 +893,14 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "novasell",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative"
+        "saas",
+        "ad-tech"
       ],
       "mood": [
         "bold",
@@ -1077,24 +914,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "nvidia",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "saas",
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive"
+        "tech",
+        "ai"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "playful",
-        "dark"
+        "dark",
+        "bold"
       ],
       "primaryColor": "#76b900",
       "fonts": {
@@ -1104,22 +935,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "ollama",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "warm"
       ],
       "primaryColor": "#000000",
       "fonts": {
@@ -1129,22 +955,21 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "opencode.ai",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
         "bold",
         "corporate",
-        "dark"
+        "dark",
+        "playful"
       ],
       "primaryColor": "#201d1d",
       "fonts": {
@@ -1154,15 +979,14 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "pinterest",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "devtool"
       ],
       "mood": [
         "minimal",
@@ -1179,18 +1003,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "pixiv",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "creative",
-        "automotive"
+        "media"
       ],
       "mood": [
-        "dark"
+        "bold"
       ],
       "primaryColor": "#0096fa",
       "fonts": {
@@ -1200,25 +1023,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "posthog",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "corporate",
         "playful",
-        "dark"
+        "bold"
       ],
       "primaryColor": "#4d4f46",
       "fonts": {
@@ -1228,20 +1044,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "qiita",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#55c500",
       "fonts": {
@@ -1251,18 +1064,17 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "rakuten",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "ecommerce"
       ],
       "mood": [
-        "dark"
+        "bold",
+        "corporate"
       ],
       "primaryColor": "#bf0000",
       "fonts": {
@@ -1272,21 +1084,16 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "raycast",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
         "corporate",
         "dark"
       ],
@@ -1298,22 +1105,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "renault",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "automotive"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#1883fd",
       "fonts": {
@@ -1323,25 +1124,19 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "replicate",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
         "bold",
         "corporate",
-        "playful",
-        "dark"
+        "playful"
       ],
       "primaryColor": "#202020",
       "fonts": {
@@ -1351,21 +1146,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "resend",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
+        "media",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#000000",
@@ -1376,20 +1167,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "revolut",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#191c1f",
@@ -1400,23 +1187,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "runwayml",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
         "dark"
       ],
       "primaryColor": "#767d88",
@@ -1427,15 +1208,13 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "sanity",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
+        "media",
         "devtool"
       ],
       "mood": [
@@ -1451,20 +1230,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "sansan",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
         "saas",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "enterprise"
       ],
       "mood": [
         "corporate",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#042a6d",
       "fonts": {
@@ -1474,22 +1251,18 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "sentry",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "devtool",
+        "saas"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "dark",
+        "bold"
       ],
       "primaryColor": "#1f1633",
       "fonts": {
@@ -1499,17 +1272,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "smarthr",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative"
+        "saas",
+        "hr"
       ],
       "mood": [
-        "bold",
+        "warm",
         "corporate"
       ],
       "primaryColor": "#00c4cc",
@@ -1520,15 +1293,13 @@
       "hasJpTypo": true,
       "hasDarkMode": false,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "spacex",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
@@ -1543,22 +1314,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "spotify",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "consumer",
+        "media"
       ],
       "mood": [
-        "minimal",
-        "bold",
-        "dark"
+        "dark",
+        "bold"
       ],
       "primaryColor": "#1ed760",
       "fonts": {
@@ -1568,23 +1335,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "stripe",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "finance",
-        "ecommerce",
-        "creative",
-        "automotive"
+        "finance"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "premium"
       ],
       "primaryColor": "#061b31",
       "fonts": {
@@ -1594,21 +1356,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "studio",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "media",
         "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
-        "bold",
-        "corporate",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#0275fd",
       "fonts": {
@@ -1618,23 +1376,18 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "supabase",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "devtool",
+        "database"
       ],
       "mood": [
-        "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "dark",
+        "minimal"
       ],
       "primaryColor": "#0f0f0f",
       "fonts": {
@@ -1644,21 +1397,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "superhuman",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
+        "media",
         "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#1b1938",
@@ -1669,18 +1419,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "tabelog",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "consumer",
+        "food"
       ],
       "mood": [
-        "dark"
+        "warm"
       ],
       "primaryColor": "#f09000",
       "fonts": {
@@ -1690,22 +1439,17 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "tesla",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "automotive",
+        "tech"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "playful",
         "dark"
       ],
       "primaryColor": "#3e6ae1",
@@ -1716,20 +1460,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "together.ai",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "media",
+        "devtool"
       ],
       "mood": [
         "minimal",
         "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#ef2cc1",
@@ -1740,19 +1482,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "toyota",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
-        "creative",
         "automotive"
       ],
       "mood": [
-        "corporate",
-        "dark"
+        "corporate"
       ],
       "primaryColor": "#eb0a1e",
       "fonts": {
@@ -1762,20 +1501,16 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "uber",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "consumer",
+        "transport"
       ],
       "mood": [
-        "minimal",
-        "warm",
         "bold",
         "dark"
       ],
@@ -1787,24 +1522,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "vercel",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "saas",
-        "ecommerce",
-        "creative",
-        "automotive",
-        "devtool"
+        "devtool",
+        "saas"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "corporate",
-        "dark"
+        "monochrome"
       ],
       "primaryColor": "#171717",
       "fonts": {
@@ -1814,22 +1543,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "voltagent",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "saas",
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
-        "minimal",
         "warm",
-        "bold",
         "dark"
       ],
       "primaryColor": "#00d992",
@@ -1840,15 +1563,13 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "warp",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
+        "media",
         "devtool"
       ],
       "mood": [
@@ -1865,20 +1586,16 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "webflow",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
-        "minimal",
-        "dark"
+        "minimal"
       ],
       "primaryColor": "#7a3dff",
       "fonts": {
@@ -1888,18 +1605,17 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "wired",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive"
+        "editorial"
       ],
       "mood": [
+        "bold",
         "dark"
       ],
       "primaryColor": "#2b2e35",
@@ -1910,15 +1626,13 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "wise",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "creative",
-        "automotive"
+        "devtool"
       ],
       "mood": [
         "minimal",
@@ -1935,23 +1649,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "x.ai",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "warm",
-        "bold",
-        "dark"
+        "dark",
+        "playful"
       ],
       "primaryColor": "#ffffff",
       "fonts": {
@@ -1961,24 +1670,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "zapier",
       "source": "Meliwat/awesome-design-md-pre-paywall",
       "category": [
         "saas",
-        "ecommerce",
-        "media",
-        "creative",
-        "automotive",
-        "devtool"
+        "automation"
       ],
       "mood": [
-        "minimal",
         "warm",
-        "bold",
-        "dark"
+        "friendly"
       ],
       "primaryColor": "#fffefb",
       "fonts": {
@@ -1988,21 +1691,18 @@
       "hasJpTypo": false,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     },
     {
       "name": "zenn",
       "source": "kzhrknt/awesome-design-md-jp",
       "category": [
-        "ecommerce",
         "media",
-        "creative",
-        "automotive",
         "devtool"
       ],
       "mood": [
         "minimal",
-        "dark"
+        "friendly"
       ],
       "primaryColor": "#3ea8ff",
       "fonts": {
@@ -2012,7 +1712,7 @@
       "hasJpTypo": true,
       "hasDarkMode": true,
       "sections": 9,
-      "lastSynced": "2026-04-19"
+      "lastSynced": "2026-04-20"
     }
   ]
 }

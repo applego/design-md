@@ -2,14 +2,10 @@
   "name": "revolut",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "devtool"
   ],
   "mood": [
     "minimal",
-    "warm",
-    "bold",
     "dark"
   ],
   "primaryColor": "#191c1f",
@@ -20,5 +16,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

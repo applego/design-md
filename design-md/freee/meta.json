@@ -2,16 +2,12 @@
   "name": "freee",
   "source": "kzhrknt/awesome-design-md-jp",
   "category": [
-    "finance",
-    "ecommerce",
-    "creative",
-    "automotive"
+    "saas",
+    "finance"
   ],
   "mood": [
-    "minimal",
-    "bold",
     "corporate",
-    "dark"
+    "warm"
   ],
   "primaryColor": "#2864f0",
   "fonts": {
@@ -21,5 +17,5 @@
   "hasJpTypo": true,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

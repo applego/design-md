@@ -2,11 +2,11 @@
   "name": "smarthr",
   "source": "kzhrknt/awesome-design-md-jp",
   "category": [
-    "ecommerce",
-    "creative"
+    "saas",
+    "hr"
   ],
   "mood": [
-    "bold",
+    "warm",
     "corporate"
   ],
   "primaryColor": "#00c4cc",
@@ -17,5 +17,5 @@
   "hasJpTypo": true,
   "hasDarkMode": false,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

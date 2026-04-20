@@ -2,13 +2,12 @@
   "name": "abema",
   "source": "kzhrknt/awesome-design-md-jp",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "media",
+    "entertainment"
   ],
   "mood": [
-    "bold",
-    "dark"
+    "dark",
+    "bold"
   ],
   "primaryColor": "#00b900",
   "fonts": {
@@ -18,5 +17,5 @@
   "hasJpTypo": true,
   "hasDarkMode": false,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

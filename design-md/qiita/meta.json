@@ -2,14 +2,11 @@
   "name": "qiita",
   "source": "kzhrknt/awesome-design-md-jp",
   "category": [
-    "ecommerce",
     "media",
-    "creative",
-    "automotive",
     "devtool"
   ],
   "mood": [
-    "dark"
+    "minimal"
   ],
   "primaryColor": "#55c500",
   "fonts": {
@@ -19,5 +16,5 @@
   "hasJpTypo": true,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

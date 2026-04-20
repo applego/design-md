@@ -2,16 +2,11 @@
   "name": "tesla",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "automotive",
+    "tech"
   ],
   "mood": [
     "minimal",
-    "warm",
-    "bold",
-    "corporate",
-    "playful",
     "dark"
   ],
   "primaryColor": "#3e6ae1",
@@ -22,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

@@ -2,14 +2,11 @@
   "name": "clickhouse",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "devtool",
+    "database"
   ],
   "mood": [
-    "warm",
     "bold",
-    "corporate",
     "dark"
   ],
   "primaryColor": "#faff69",
@@ -20,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

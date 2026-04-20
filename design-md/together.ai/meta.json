@@ -2,14 +2,12 @@
   "name": "together.ai",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "media",
+    "devtool"
   ],
   "mood": [
     "minimal",
     "warm",
-    "bold",
     "dark"
   ],
   "primaryColor": "#ef2cc1",
@@ -20,5 +18,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

@@ -2,14 +2,12 @@
   "name": "line",
   "source": "kzhrknt/awesome-design-md-jp",
   "category": [
-    "ecommerce",
-    "creative",
-    "automotive"
+    "consumer",
+    "messaging"
   ],
   "mood": [
-    "minimal",
-    "corporate",
-    "dark"
+    "friendly",
+    "bold"
   ],
   "primaryColor": "#06c755",
   "fonts": {
@@ -19,5 +17,5 @@
   "hasJpTypo": true,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

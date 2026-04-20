@@ -42,25 +42,85 @@ function extractMeta(content, source, brand) {
   const monoMatch = content.match(/[Mm]ono[^`]*?`([^`]+)`/);
   if (monoMatch) meta.fonts.mono = monoMatch[1].split(',')[0].trim().replace(/['"]/g, '');
 
-  // Category inference
-  const text = content.toLowerCase();
-  if (/saas|dashboard|管理/.test(text)) meta.category.push('saas');
-  if (/financ|金融|会計|billing/.test(text)) meta.category.push('finance');
-  if (/commerce|ec|shop|買/.test(text)) meta.category.push('ecommerce');
-  if (/media|記事|article/.test(text)) meta.category.push('media');
-  if (/creative|design|デザイン/.test(text)) meta.category.push('creative');
-  if (/auto|車|car/.test(text)) meta.category.push('automotive');
-  if (/dev|tool|開発/.test(text)) meta.category.push('devtool');
-  if (meta.category.length === 0) meta.category.push('general');
+  // Known brand → category/mood mapping (overrides heuristics)
+  const BRAND_META = {
+    airbnb: { cat: ['ecommerce', 'travel'], mood: ['warm', 'friendly'] },
+    apple: { cat: ['consumer', 'tech'], mood: ['minimal', 'premium'] },
+    bmw: { cat: ['automotive'], mood: ['premium', 'dark'] },
+    cal: { cat: ['saas', 'productivity'], mood: ['minimal', 'monochrome'] },
+    claude: { cat: ['ai', 'devtool'], mood: ['minimal', 'warm'] },
+    clickhouse: { cat: ['devtool', 'database'], mood: ['bold', 'dark'] },
+    coinbase: { cat: ['finance', 'crypto'], mood: ['corporate', 'minimal'] },
+    cursor: { cat: ['devtool', 'ai'], mood: ['dark', 'minimal'] },
+    expo: { cat: ['devtool', 'mobile'], mood: ['minimal'] },
+    ferrari: { cat: ['automotive'], mood: ['premium', 'bold'] },
+    figma: { cat: ['creative', 'devtool'], mood: ['minimal', 'monochrome'] },
+    freee: { cat: ['saas', 'finance'], mood: ['corporate', 'warm'] },
+    ibm: { cat: ['enterprise', 'tech'], mood: ['corporate'] },
+    kraken: { cat: ['finance', 'crypto'], mood: ['dark', 'bold'] },
+    lamborghini: { cat: ['automotive'], mood: ['premium', 'dark'] },
+    line: { cat: ['consumer', 'messaging'], mood: ['friendly', 'bold'] },
+    'linear.app': { cat: ['saas', 'devtool'], mood: ['minimal', 'dark'] },
+    mercari: { cat: ['ecommerce', 'consumer'], mood: ['bold', 'friendly'] },
+    moneyforward: { cat: ['saas', 'finance'], mood: ['corporate'] },
+    muji: { cat: ['ecommerce', 'retail'], mood: ['minimal', 'natural'] },
+    note: { cat: ['media', 'editorial'], mood: ['warm', 'minimal'] },
+    notion: { cat: ['saas', 'productivity'], mood: ['warm', 'minimal'] },
+    nvidia: { cat: ['tech', 'ai'], mood: ['dark', 'bold'] },
+    pixiv: { cat: ['creative', 'media'], mood: ['bold'] },
+    posthog: { cat: ['saas', 'devtool'], mood: ['playful', 'bold'] },
+    qiita: { cat: ['media', 'devtool'], mood: ['minimal'] },
+    rakuten: { cat: ['ecommerce'], mood: ['bold', 'corporate'] },
+    renault: { cat: ['automotive'], mood: ['corporate'] },
+    sentry: { cat: ['devtool', 'saas'], mood: ['dark', 'bold'] },
+    smarthr: { cat: ['saas', 'hr'], mood: ['warm', 'corporate'] },
+    spotify: { cat: ['consumer', 'media'], mood: ['dark', 'bold'] },
+    stripe: { cat: ['saas', 'finance'], mood: ['minimal', 'premium'] },
+    studio: { cat: ['creative', 'devtool'], mood: ['minimal'] },
+    supabase: { cat: ['devtool', 'database'], mood: ['dark', 'minimal'] },
+    tabelog: { cat: ['consumer', 'food'], mood: ['warm'] },
+    tesla: { cat: ['automotive', 'tech'], mood: ['minimal', 'dark'] },
+    toyota: { cat: ['automotive'], mood: ['corporate'] },
+    uber: { cat: ['consumer', 'transport'], mood: ['bold', 'dark'] },
+    vercel: { cat: ['devtool', 'saas'], mood: ['minimal', 'monochrome'] },
+    zapier: { cat: ['saas', 'automation'], mood: ['warm', 'friendly'] },
+    // JP brands
+    abema: { cat: ['media', 'entertainment'], mood: ['dark', 'bold'] },
+    connpass: { cat: ['media', 'community'], mood: ['warm'] },
+    cookpad: { cat: ['consumer', 'food'], mood: ['warm', 'friendly'] },
+    cybozu: { cat: ['saas', 'enterprise'], mood: ['corporate'] },
+    droga5: { cat: ['creative', 'agency'], mood: ['bold'] },
+    novasell: { cat: ['saas', 'ad-tech'], mood: ['bold', 'dark'] },
+    sansan: { cat: ['saas', 'enterprise'], mood: ['corporate', 'minimal'] },
+    wired: { cat: ['media', 'editorial'], mood: ['bold', 'dark'] },
+    zenn: { cat: ['media', 'devtool'], mood: ['minimal', 'friendly'] },
+  };
 
-  // Mood inference
-  if (/minimal|clean|シンプル/.test(text)) meta.mood.push('minimal');
-  if (/warm|温かい|cream/.test(text)) meta.mood.push('warm');
-  if (/bold|vibrant|鮮やか/.test(text)) meta.mood.push('bold');
-  if (/corporate|trust|信頼/.test(text)) meta.mood.push('corporate');
-  if (/playful|creative|遊び/.test(text)) meta.mood.push('playful');
-  if (/dark|ダーク/.test(text)) meta.mood.push('dark');
-  if (meta.mood.length === 0) meta.mood.push('neutral');
+  const known = BRAND_META[brand];
+  if (known) {
+    meta.category = known.cat;
+    meta.mood = known.mood;
+  } else {
+    // Fallback heuristics (narrower patterns to avoid false positives)
+    const text = content.toLowerCase();
+    if (/\bdashboard\b|saas platform/i.test(text)) meta.category.push('saas');
+    if (/\bfinancial\b|payment|billing|会計/i.test(text)) meta.category.push('finance');
+    if (/\be-?commerce\b|shopping|marketplace/i.test(text)) meta.category.push('ecommerce');
+    if (/\beditorial\b|magazine|blog platform/i.test(text)) meta.category.push('media');
+    if (/\bdeveloper tool\b|IDE|CLI|SDK/i.test(text)) meta.category.push('devtool');
+    if (meta.category.length === 0) meta.category.push('general');
+
+    // Mood from visual theme section only (Section 1)
+    const sec1 = content.match(/## 1\..*?(?=## 2\.)/s)?.[0] || '';
+    const s1 = sec1.toLowerCase();
+    if (/minimal|clean|subtle/i.test(s1)) meta.mood.push('minimal');
+    if (/warm|friendly|approachable/i.test(s1)) meta.mood.push('warm');
+    if (/bold|vibrant|energetic/i.test(s1)) meta.mood.push('bold');
+    if (/corporate|professional|trust/i.test(s1)) meta.mood.push('corporate');
+    if (/dark|immersive|cinema/i.test(s1)) meta.mood.push('dark');
+    if (/playful|fun|creative/i.test(s1)) meta.mood.push('playful');
+    if (meta.mood.length === 0) meta.mood.push('neutral');
+  }
 
   return meta;
 }

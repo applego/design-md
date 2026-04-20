@@ -2,16 +2,12 @@
   "name": "apple",
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
-    "ecommerce",
-    "media",
-    "creative",
-    "automotive"
+    "consumer",
+    "tech"
   ],
   "mood": [
     "minimal",
-    "warm",
-    "bold",
-    "dark"
+    "premium"
   ],
   "primaryColor": "#000000",
   "fonts": {
@@ -21,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }

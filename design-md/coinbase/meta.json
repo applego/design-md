@@ -3,16 +3,11 @@
   "source": "Meliwat/awesome-design-md-pre-paywall",
   "category": [
     "finance",
-    "ecommerce",
-    "media",
-    "creative",
-    "automotive"
+    "crypto"
   ],
   "mood": [
-    "minimal",
-    "bold",
     "corporate",
-    "dark"
+    "minimal"
   ],
   "primaryColor": "#0052ff",
   "fonts": {
@@ -22,5 +17,5 @@
   "hasJpTypo": false,
   "hasDarkMode": true,
   "sections": 9,
-  "lastSynced": "2026-04-19"
+  "lastSynced": "2026-04-20"
 }
