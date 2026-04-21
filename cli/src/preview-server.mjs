@@ -223,6 +223,34 @@ export function createPreviewServer(initialTokens) {
       return;
     }
 
+    // POST /tokens — update tokens via HTTP API (for Claude Code integration)
+    if (req.method === 'POST' && req.url === '/tokens') {
+      let body = '';
+      req.on('data', c => body += c);
+      req.on('end', () => {
+        try {
+          const newTokens = JSON.parse(body);
+          tokens = { ...tokens, ...newTokens };
+          for (const client of sseClients) {
+            client.write('data: reload\n\n');
+          }
+          res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+          res.end(JSON.stringify({ ok: true, tokens }));
+        } catch (e) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: e.message }));
+        }
+      });
+      return;
+    }
+
+    // GET /tokens — read current tokens
+    if (req.url === '/tokens') {
+      res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+      res.end(JSON.stringify(tokens));
+      return;
+    }
+
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
     res.end(PREVIEW_HTML(tokens));
   });

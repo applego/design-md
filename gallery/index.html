@@ -131,6 +131,30 @@
     gap:16px;
   }
 
+  /* Card wrapper + Apply button */
+  .card-wrapper{position:relative}
+  .apply-btn{
+    position:absolute;top:8px;right:8px;z-index:10;
+    background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);
+    padding:4px 10px;font-size:11px;font-weight:600;font-family:var(--font-sans);
+    cursor:pointer;opacity:0;transition:opacity .2s;
+  }
+  .card-wrapper:hover .apply-btn{opacity:1}
+  .apply-btn:hover{background:var(--accent-hover)}
+  .apply-btn.has-preset{background:#22c55e}
+  .apply-btn.has-preset:hover{background:#16a34a}
+
+  /* Preview status bar */
+  #preview-status{
+    display:none;position:fixed;bottom:16px;right:16px;z-index:100;
+    background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.3);
+    border-radius:var(--radius);padding:8px 14px;
+    align-items:center;gap:8px;font-size:11px;color:#4ade80;
+    backdrop-filter:blur(8px);
+  }
+  .ps-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
   /* Card */
   .card{
     background:var(--surface);
@@ -280,6 +304,7 @@
 
 <div class="stats" id="stats"></div>
 
+<div id="preview-status"><div class="ps-dot"></div><span class="ps-text">Live Preview connected</span></div>
 <div class="grid" id="grid">
   <div class="loading">Loading catalog&hellip;</div>
 </div>
@@ -371,21 +396,101 @@
       const dark = b.hasDarkMode ? `<span class="dark-badge">dark</span>` : '';
       const sourceShort = b.source.includes('jp') ? 'JP' : 'EN';
 
+      const hasPreset = PRESETS[b.name] ? ' has-preset' : '';
+      const applyBtnHtml = previewConnected
+        ? `<button class="apply-btn${hasPreset}" data-brand="${b.name}" title="Apply to Live Preview">Apply</button>`
+        : '';
+
       return `
-        <a class="card" href="${href}" target="_blank" rel="noopener">
-          <div class="card-top">
-            <div class="color-chip" style="background:${b.primaryColor}"></div>
-            <span class="card-name">${b.name}${jp}</span>
-          </div>
-          <div class="card-meta">${cats}${moods}</div>
-          <div class="card-foot">
-            <span class="source">${sourceShort}${dark}</span>
-            <span class="sections">${b.sections} sections</span>
-          </div>
-        </a>
+        <div class="card-wrapper">
+          <a class="card" href="${href}" target="_blank" rel="noopener">
+            <div class="card-top">
+              <div class="color-chip" style="background:${b.primaryColor}"></div>
+              <span class="card-name">${b.name}${jp}</span>
+            </div>
+            <div class="card-meta">${cats}${moods}</div>
+            <div class="card-foot">
+              <span class="source">${sourceShort}${dark}</span>
+              <span class="sections">${b.sections} sections</span>
+            </div>
+          </a>
+          ${applyBtnHtml}
+        </div>
       `;
     }).join('');
   }
+
+  // ---- Live Preview integration ----
+  const PREVIEW_PORT = 4567;
+  const PREVIEW_URL = `http://localhost:${PREVIEW_PORT}`;
+
+  // Token presets for brands with known full token sets
+  const PRESETS = {
+    stripe:  { brandName:'Stripe', primary:'#0e7490', primaryLight:'#e0f4f4', bg:'#f6f9fc', card:'#ffffff', surface:'#f0f4f8', text:'#0a2540', textSec:'#5a6f83', border:'#e3e8ee', success:'#0e7490', warning:'#b45309', danger:'#dc2626', radius:'8px', fontSans:'Söhne', fontMono:'Söhne Mono' },
+    'linear.app':  { brandName:'Linear', primary:'#5e6ad2', primaryLight:'#ededff', bg:'#ffffff', card:'#ffffff', surface:'#f9f9fb', text:'#1a1a2e', textSec:'#6b6b80', border:'#e5e5ea', success:'#27a644', warning:'#e09600', danger:'#d63031', radius:'10px', fontSans:'Inter', fontMono:'Berkeley Mono' },
+    notion:  { brandName:'Notion', primary:'#0075de', primaryLight:'#e8f0fc', bg:'#ffffff', card:'#ffffff', surface:'#f6f5f4', text:'#37352f', textSec:'#615d59', border:'rgba(0,0,0,0.08)', success:'#2a9d99', warning:'#dd5b00', danger:'#c42b2b', radius:'4px', fontSans:'Inter', fontMono:'JetBrains Mono' },
+    vercel:  { brandName:'Vercel', primary:'#171717', primaryLight:'#f5f5f5', bg:'#ffffff', card:'#ffffff', surface:'#fafafa', text:'#171717', textSec:'#666666', border:'rgba(0,0,0,0.06)', success:'#0a8a2e', warning:'#f5a623', danger:'#ee0000', radius:'8px', fontSans:'Geist', fontMono:'Geist Mono' },
+    freee:   { brandName:'freee', primary:'#2864f0', primaryLight:'#e0edff', bg:'#ffffff', card:'#ffffff', surface:'#f5f5f5', text:'#333333', textSec:'#666666', border:'#dddddd', success:'#27ae60', warning:'#f39c12', danger:'#e74c3c', radius:'6px', fontSans:'Inter', fontMono:'JetBrains Mono' },
+    smarthr: { brandName:'SmartHR', primary:'#0077c7', primaryLight:'#e0f0ff', bg:'#f8f7f6', card:'#ffffff', surface:'#f0efed', text:'#23221e', textSec:'#706d65', border:'#d6d3d0', success:'#27ae60', warning:'#ffcc17', danger:'#e01e5a', radius:'8px', fontSans:'Inter', fontMono:'JetBrains Mono' },
+    apple:   { brandName:'Apple', primary:'#0071e3', primaryLight:'#e8f2ff', bg:'#ffffff', card:'#ffffff', surface:'#f5f5f7', text:'#1d1d1f', textSec:'rgba(0,0,0,0.45)', border:'#d2d2d7', success:'#34c759', warning:'#ff9f0a', danger:'#ff3b30', radius:'12px', fontSans:'SF Pro', fontMono:'SF Mono' },
+    muji:    { brandName:'MUJI', primary:'#7f0019', primaryLight:'#f5e8ec', bg:'#ffffff', card:'#ffffff', surface:'#f4eede', text:'#3c3c43', textSec:'#6d6d72', border:'#d8d8d9', success:'#2d8a4e', warning:'#c48500', danger:'#dd0c14', radius:'0px', fontSans:'Helvetica Neue', fontMono:'monospace' },
+    cal:     { brandName:'Cal.com', primary:'#242424', primaryLight:'#f0f0f0', bg:'#ffffff', card:'#ffffff', surface:'#fafafa', text:'#242424', textSec:'#898989', border:'rgba(34,42,53,0.06)', success:'#2a9d8f', warning:'#d97706', danger:'#dc2626', radius:'8px', fontSans:'Cal Sans', fontMono:'monospace' },
+    moneyforward: { brandName:'MoneyForward', primary:'#4db848', primaryLight:'#e8f5e6', bg:'#ffffff', card:'#ffffff', surface:'#f5f5f5', text:'#333333', textSec:'#666666', border:'#dddddd', success:'#27ae60', warning:'#f39c12', danger:'#e74c3c', radius:'6px', fontSans:'Inter', fontMono:'JetBrains Mono' },
+    line:    { brandName:'LINE', primary:'#06c755', primaryLight:'#e0f9ea', bg:'#ffffff', card:'#ffffff', surface:'#f7f8f9', text:'#000000', textSec:'#666666', border:'#e5e5e5', success:'#06c755', warning:'#f9ab00', danger:'#d93025', radius:'8px', fontSans:'Inter', fontMono:'monospace' },
+    mercari: { brandName:'Mercari', primary:'#ff333f', primaryLight:'#ffe8ea', bg:'#ffffff', card:'#ffffff', surface:'#f7f7f7', text:'#333333', textSec:'#666666', border:'#e0e0e0', success:'#34a853', warning:'#f9ab00', danger:'#ff333f', radius:'8px', fontSans:'Helvetica Neue', fontMono:'monospace' },
+    spotify: { brandName:'Spotify', primary:'#1ed760', primaryLight:'#e0fae8', bg:'#121212', card:'#181818', surface:'#1f1f1f', text:'#ffffff', textSec:'#b3b3b3', border:'#4d4d4d', success:'#1ed760', warning:'#ffa42b', danger:'#f3727f', radius:'500px', fontSans:'Circular', fontMono:'monospace' },
+    figma:   { brandName:'Figma', primary:'#000000', primaryLight:'#f0f0f0', bg:'#ffffff', card:'#ffffff', surface:'#f5f5f5', text:'#000000', textSec:'#666666', border:'#e5e5e5', success:'#22c55e', warning:'#eab308', danger:'#ef4444', radius:'8px', fontSans:'Figma Sans', fontMono:'Figma Mono' },
+  };
+
+  // Generate basic tokens from meta.json for brands without presets
+  function tokensFromMeta(b) {
+    const pc = b.primaryColor || '#2563eb';
+    return {
+      brandName: b.name,
+      primary: pc,
+      primaryLight: pc + '18',
+      bg: '#ffffff', card: '#ffffff', surface: '#f5f5f7',
+      text: '#1e293b', textSec: '#64748b',
+      border: '#e2e8f0',
+      success: '#15803d', warning: '#a16207', danger: '#b91c1c',
+      radius: '8px',
+      fontSans: b.fonts?.sans || 'Inter',
+      fontMono: b.fonts?.mono || 'JetBrains Mono',
+    };
+  }
+
+  let previewConnected = false;
+
+  async function checkPreviewServer() {
+    try {
+      const res = await fetch(`${PREVIEW_URL}/tokens`, { signal: AbortSignal.timeout(500) });
+      previewConnected = res.ok;
+    } catch { previewConnected = false; }
+    document.getElementById('preview-status').style.display = previewConnected ? 'flex' : 'none';
+  }
+
+  async function applyToPreview(brandName) {
+    const tokens = PRESETS[brandName] || tokensFromMeta(brands.find(b => b.name === brandName) || {});
+    try {
+      const res = await fetch(`${PREVIEW_URL}/tokens`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(tokens),
+      });
+      if (res.ok) {
+        // Flash confirmation
+        const el = document.getElementById('preview-status');
+        el.querySelector('.ps-text').textContent = `Applied: ${tokens.brandName}`;
+        setTimeout(() => { el.querySelector('.ps-text').textContent = 'Live Preview connected'; }, 2000);
+      }
+    } catch (e) {
+      console.error('Failed to apply to preview:', e);
+    }
+  }
+
+  // Check preview server periodically
+  checkPreviewServer();
+  setInterval(checkPreviewServer, 5000);
 
   // Event listeners
   search.addEventListener('input', render);
@@ -397,6 +502,16 @@
     btn.classList.add('active');
     activeCat = btn.dataset.cat;
     render();
+  });
+
+  // Handle apply button clicks (event delegation)
+  grid.addEventListener('click', e => {
+    const applyBtn = e.target.closest('.apply-btn');
+    if (applyBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      applyToPreview(applyBtn.dataset.brand);
+    }
   });
 
   render();
