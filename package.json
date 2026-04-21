@@ -24,13 +24,14 @@
     "node": ">=18"
   },
   "scripts": {
+    "start": "node scripts/start-all.mjs",
+    "preview": "node cli/src/serve-preview.mjs 4567",
+    "gallery": "npx -y serve -l 3456 --no-clipboard .",
     "build:catalog": "node scripts/build-catalog.mjs",
     "build:fonts": "node scripts/build-fonts.mjs",
     "sync:jp": "git subtree pull --prefix=upstream/jp https://github.com/kzhrknt/awesome-design-md-jp.git main --squash",
     "sync:en": "git subtree pull --prefix=upstream/en https://github.com/Meliwat/awesome-design-md-pre-paywall.git main --squash",
-    "sync": "npm run sync:jp && npm run sync:en && npm run build:catalog",
-    "gallery:dev": "cd gallery && npx astro dev",
-    "gallery:build": "cd gallery && npx astro build"
+    "sync": "npm run sync:jp && npm run sync:en && npm run build:catalog"
   },
   "keywords": ["design-md", "design-system", "design-tokens", "stitch", "fonts", "japanese", "typography"],
   "author": "applego",
