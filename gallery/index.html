@@ -488,9 +488,14 @@
     }
   }
 
-  // Check preview server periodically
-  checkPreviewServer();
-  setInterval(checkPreviewServer, 5000);
+  // Check preview server periodically, re-render when status changes
+  async function checkAndRender() {
+    const was = previewConnected;
+    await checkPreviewServer();
+    if (was !== previewConnected) render();
+  }
+  checkAndRender();
+  setInterval(checkAndRender, 5000);
 
   // Event listeners
   search.addEventListener('input', render);
