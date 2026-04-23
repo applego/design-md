@@ -58,8 +58,28 @@ design-md list
 ```bash
 cd ~/Documents/workspace_dev/design-md
 git pull
-npm install -g .   # 新コマンドがあれば再リンク
+# symlinkだから自動反映、再インストール不要
 ```
+
+---
+
+### なぜ install.sh？ npm / npx じゃないの？
+
+| 方式 | CLI | Gallery | 備考 |
+|------|-----|---------|------|
+| **install.sh（推奨）** | ✅ | ✅ | 1行でclone+symlink、git pullで更新 |
+| `npx @applego/design-md` | ✅ | ❌ | clone必要（Gallery静的ファイル配信のため） |
+| `npm i -g @applego/design-md` | ✅ | ❌ | 同上、npm publish 必要 |
+
+**install.sh がベストな理由:**
+
+1. **Gallery + Live Preview フロー全体が動く** — これが一番の価値
+2. **82ブランドの preview.html が手元にある** → CLI `preview` も即動く
+3. **npm管理不要** — npm publish すると unpublish制限・バージョン管理責任が発生
+4. **複数PCで同一手順** — curl 1行で全PC揃う
+5. **Volta/fnm/nvm 互換** — symlink 方式なので Node version manager と衝突しない
+
+将来 OSS として広めたくなったら `npm publish` を追加で入れれば両方共存可能。
 
 ### 毎回の使い方（1コマンド）
 
