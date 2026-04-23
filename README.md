@@ -20,11 +20,45 @@ Introduced by [Google Stitch](https://stitch.withgoogle.com/docs/design-md/forma
 
 新しいサイトの DESIGN.md を決める最高のフロー。**ブラウザで選ぶだけ**。
 
-### セットアップ（初回のみ）
+### セットアップ（初回のみ、1行で）
 
+```bash
+curl -sSL https://raw.githubusercontent.com/applego/design-md/main/install.sh | bash
+```
+
+これで：
+- `~/Documents/workspace_dev/design-md` に clone
+- `design-md` コマンドが global にインストール
+- 複数PCで同じコマンドが使える
+
+別の場所にインストールしたい場合：
+```bash
+DESIGN_MD_DIR=~/my-path curl -sSL https://raw.githubusercontent.com/applego/design-md/main/install.sh | bash
+```
+
+手動でやる場合:
 ```bash
 git clone https://github.com/applego/design-md.git ~/Documents/workspace_dev/design-md
 cd ~/Documents/workspace_dev/design-md
+npm install -g .
+```
+
+### 他のPCでも使う
+
+install.sh を実行するだけ。各PCで同じコマンドが使える：
+
+```bash
+# PC A, PC B, PC C... 全部で同じ
+curl -sSL https://raw.githubusercontent.com/applego/design-md/main/install.sh | bash
+design-md list
+```
+
+### 更新（upstream + コード両方）
+
+```bash
+cd ~/Documents/workspace_dev/design-md
+git pull
+npm install -g .   # 新コマンドがあれば再リンク
 ```
 
 ### 毎回の使い方（1コマンド）
